@@ -3,12 +3,12 @@ const video = document.querySelector('video');
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
-// Xác định kích thước của video
-const videoWidth = video.videoWidth;
-const videoHeight = video.videoHeight;
-
 // Cài đặt sự kiện khi video play
 video.addEventListener('play', function() {
+    // Xác định kích thước của video
+    const videoWidth = video.videoWidth;
+    const videoHeight = video.videoHeight;
+    
     // Thiết lập kích thước của canvas để phù hợp với video
     canvas.width = videoWidth;
     canvas.height = videoHeight;

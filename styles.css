@@ -19,8 +19,8 @@ body {
 #banner-message video, #banner-message canvas {
     display: block;
     margin: 0 auto;
-    width: 100%; /* Chỉ định 100% chiều rộng để chúng có cùng chiều rộng */
-    height: 75%; /* Chiều cao 75% tỉ lệ của video */
+    width: 70%; /* Chỉ định 70% chiều rộng để chúng có cùng chiều rộng */
+    height: 100%; /* Chiều cao 100% tỉ lệ của video */
 }
 
 /* CSS cho thông báo khi video tạm dừng */
